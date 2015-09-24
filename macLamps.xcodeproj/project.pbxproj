@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE733C01BB3DAA200E8A697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE733BF1BB3DAA200E8A697 /* AppDelegate.swift */; };
+		DAE733C21BB3DAA200E8A697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE733C11BB3DAA200E8A697 /* ViewController.swift */; };
+		DAE733C41BB3DAA200E8A697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE733C31BB3DAA200E8A697 /* Assets.xcassets */; };
+		DAE733C71BB3DAA200E8A697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE733C51BB3DAA200E8A697 /* Main.storyboard */; };
+		DAE733D21BB3DAA200E8A697 /* macLampsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE733D11BB3DAA200E8A697 /* macLampsTests.swift */; };
+		DAE733DD1BB3DAA200E8A697 /* macLampsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE733DC1BB3DAA200E8A697 /* macLampsUITests.swift */; };
+		DAE733F11BB3DABC00E8A697 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE733F01BB3DABC00E8A697 /* NotificationCenter.framework */; };
+		DAE733F61BB3DABC00E8A697 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE733F51BB3DABC00E8A697 /* TodayViewController.swift */; };
+		DAE733F91BB3DABC00E8A697 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE733F71BB3DABC00E8A697 /* TodayViewController.xib */; };
+		DAE733FD1BB3DABC00E8A697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE733FB1BB3DABC00E8A697 /* InfoPlist.strings */; };
+		DAE734001BB3DABC00E8A697 /* macLamps Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DAE733EE1BB3DABC00E8A697 /* macLamps Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE733CE1BB3DAA200E8A697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE733B41BB3DAA200E8A697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE733BB1BB3DAA200E8A697;
+			remoteInfo = macLamps;
+		};
+		DAE733D91BB3DAA200E8A697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE733B41BB3DAA200E8A697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE733BB1BB3DAA200E8A697;
+			remoteInfo = macLamps;
+		};
+		DAE733FE1BB3DABC00E8A697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE733B41BB3DAA200E8A697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE733ED1BB3DABC00E8A697;
+			remoteInfo = "macLamps Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAE734041BB3DABC00E8A697 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DAE734001BB3DABC00E8A697 /* macLamps Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA203ECB1BB458D900519147 /* macLamps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = macLamps.entitlements; sourceTree = "<group>"; };
+		DAE733BC1BB3DAA200E8A697 /* macLamps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macLamps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE733BF1BB3DAA200E8A697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAE733C11BB3DAA200E8A697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAE733C31BB3DAA200E8A697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAE733C61BB3DAA200E8A697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAE733C81BB3DAA200E8A697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE733CD1BB3DAA200E8A697 /* macLampsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macLampsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE733D11BB3DAA200E8A697 /* macLampsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macLampsTests.swift; sourceTree = "<group>"; };
+		DAE733D31BB3DAA200E8A697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE733D81BB3DAA200E8A697 /* macLampsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macLampsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE733DC1BB3DAA200E8A697 /* macLampsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macLampsUITests.swift; sourceTree = "<group>"; };
+		DAE733DE1BB3DAA200E8A697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE733EE1BB3DABC00E8A697 /* macLamps Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "macLamps Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE733F01BB3DABC00E8A697 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		DAE733F41BB3DABC00E8A697 /* macLamps_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = macLamps_Widget.entitlements; sourceTree = "<group>"; };
+		DAE733F51BB3DABC00E8A697 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		DAE733F81BB3DABC00E8A697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		DAE733FA1BB3DABC00E8A697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE733FC1BB3DABC00E8A697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE733B91BB3DAA200E8A697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733CA1BB3DAA200E8A697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733D51BB3DAA200E8A697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733EB1BB3DABC00E8A697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE733F11BB3DABC00E8A697 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE733B31BB3DAA200E8A697 = {
+			isa = PBXGroup;
+			children = (
+				DAE733BE1BB3DAA200E8A697 /* macLamps */,
+				DAE733D01BB3DAA200E8A697 /* macLampsTests */,
+				DAE733DB1BB3DAA200E8A697 /* macLampsUITests */,
+				DAE733F21BB3DABC00E8A697 /* macLamps Widget */,
+				DAE733EF1BB3DABC00E8A697 /* Frameworks */,
+				DAE733BD1BB3DAA200E8A697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE733BD1BB3DAA200E8A697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE733BC1BB3DAA200E8A697 /* macLamps.app */,
+				DAE733CD1BB3DAA200E8A697 /* macLampsTests.xctest */,
+				DAE733D81BB3DAA200E8A697 /* macLampsUITests.xctest */,
+				DAE733EE1BB3DABC00E8A697 /* macLamps Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE733BE1BB3DAA200E8A697 /* macLamps */ = {
+			isa = PBXGroup;
+			children = (
+				DA203ECB1BB458D900519147 /* macLamps.entitlements */,
+				DAE733BF1BB3DAA200E8A697 /* AppDelegate.swift */,
+				DAE733C11BB3DAA200E8A697 /* ViewController.swift */,
+				DAE733C31BB3DAA200E8A697 /* Assets.xcassets */,
+				DAE733C51BB3DAA200E8A697 /* Main.storyboard */,
+				DAE733C81BB3DAA200E8A697 /* Info.plist */,
+			);
+			path = macLamps;
+			sourceTree = "<group>";
+		};
+		DAE733D01BB3DAA200E8A697 /* macLampsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE733D11BB3DAA200E8A697 /* macLampsTests.swift */,
+				DAE733D31BB3DAA200E8A697 /* Info.plist */,
+			);
+			path = macLampsTests;
+			sourceTree = "<group>";
+		};
+		DAE733DB1BB3DAA200E8A697 /* macLampsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE733DC1BB3DAA200E8A697 /* macLampsUITests.swift */,
+				DAE733DE1BB3DAA200E8A697 /* Info.plist */,
+			);
+			path = macLampsUITests;
+			sourceTree = "<group>";
+		};
+		DAE733EF1BB3DABC00E8A697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE733F01BB3DABC00E8A697 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE733F21BB3DABC00E8A697 /* macLamps Widget */ = {
+			isa = PBXGroup;
+			children = (
+				DAE733F51BB3DABC00E8A697 /* TodayViewController.swift */,
+				DAE733F71BB3DABC00E8A697 /* TodayViewController.xib */,
+				DAE733FA1BB3DABC00E8A697 /* Info.plist */,
+				DAE733FB1BB3DABC00E8A697 /* InfoPlist.strings */,
+				DAE733F31BB3DABC00E8A697 /* Supporting Files */,
+			);
+			path = "macLamps Widget";
+			sourceTree = "<group>";
+		};
+		DAE733F31BB3DABC00E8A697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE733F41BB3DABC00E8A697 /* macLamps_Widget.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE733BB1BB3DAA200E8A697 /* macLamps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE733E11BB3DAA200E8A697 /* Build configuration list for PBXNativeTarget "macLamps" */;
+			buildPhases = (
+				DAE733B81BB3DAA200E8A697 /* Sources */,
+				DAE733B91BB3DAA200E8A697 /* Frameworks */,
+				DAE733BA1BB3DAA200E8A697 /* Resources */,
+				DAE734041BB3DABC00E8A697 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE733FF1BB3DABC00E8A697 /* PBXTargetDependency */,
+			);
+			name = macLamps;
+			productName = macLamps;
+			productReference = DAE733BC1BB3DAA200E8A697 /* macLamps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE733CC1BB3DAA200E8A697 /* macLampsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE733E41BB3DAA200E8A697 /* Build configuration list for PBXNativeTarget "macLampsTests" */;
+			buildPhases = (
+				DAE733C91BB3DAA200E8A697 /* Sources */,
+				DAE733CA1BB3DAA200E8A697 /* Frameworks */,
+				DAE733CB1BB3DAA200E8A697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE733CF1BB3DAA200E8A697 /* PBXTargetDependency */,
+			);
+			name = macLampsTests;
+			productName = macLampsTests;
+			productReference = DAE733CD1BB3DAA200E8A697 /* macLampsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAE733D71BB3DAA200E8A697 /* macLampsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE733E71BB3DAA200E8A697 /* Build configuration list for PBXNativeTarget "macLampsUITests" */;
+			buildPhases = (
+				DAE733D41BB3DAA200E8A697 /* Sources */,
+				DAE733D51BB3DAA200E8A697 /* Frameworks */,
+				DAE733D61BB3DAA200E8A697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE733DA1BB3DAA200E8A697 /* PBXTargetDependency */,
+			);
+			name = macLampsUITests;
+			productName = macLampsUITests;
+			productReference = DAE733D81BB3DAA200E8A697 /* macLampsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DAE733ED1BB3DABC00E8A697 /* macLamps Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE734011BB3DABC00E8A697 /* Build configuration list for PBXNativeTarget "macLamps Widget" */;
+			buildPhases = (
+				DAE733EA1BB3DABC00E8A697 /* Sources */,
+				DAE733EB1BB3DABC00E8A697 /* Frameworks */,
+				DAE733EC1BB3DABC00E8A697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macLamps Widget";
+			productName = "macLamps Widget";
+			productReference = DAE733EE1BB3DABC00E8A697 /* macLamps Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE733B41BB3DAA200E8A697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Paul Fleury";
+				TargetAttributes = {
+					DAE733BB1BB3DAA200E8A697 = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					DAE733CC1BB3DAA200E8A697 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DAE733BB1BB3DAA200E8A697;
+					};
+					DAE733D71BB3DAA200E8A697 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DAE733BB1BB3DAA200E8A697;
+					};
+					DAE733ED1BB3DABC00E8A697 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DAE733B71BB3DAA200E8A697 /* Build configuration list for PBXProject "macLamps" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE733B31BB3DAA200E8A697;
+			productRefGroup = DAE733BD1BB3DAA200E8A697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE733BB1BB3DAA200E8A697 /* macLamps */,
+				DAE733CC1BB3DAA200E8A697 /* macLampsTests */,
+				DAE733D71BB3DAA200E8A697 /* macLampsUITests */,
+				DAE733ED1BB3DABC00E8A697 /* macLamps Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE733BA1BB3DAA200E8A697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE733C41BB3DAA200E8A697 /* Assets.xcassets in Resources */,
+				DAE733C71BB3DAA200E8A697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733CB1BB3DAA200E8A697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733D61BB3DAA200E8A697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733EC1BB3DABC00E8A697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE733F91BB3DABC00E8A697 /* TodayViewController.xib in Resources */,
+				DAE733FD1BB3DABC00E8A697 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE733B81BB3DAA200E8A697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE733C21BB3DAA200E8A697 /* ViewController.swift in Sources */,
+				DAE733C01BB3DAA200E8A697 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733C91BB3DAA200E8A697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE733D21BB3DAA200E8A697 /* macLampsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733D41BB3DAA200E8A697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE733DD1BB3DAA200E8A697 /* macLampsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE733EA1BB3DABC00E8A697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE733F61BB3DABC00E8A697 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE733CF1BB3DAA200E8A697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE733BB1BB3DAA200E8A697 /* macLamps */;
+			targetProxy = DAE733CE1BB3DAA200E8A697 /* PBXContainerItemProxy */;
+		};
+		DAE733DA1BB3DAA200E8A697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE733BB1BB3DAA200E8A697 /* macLamps */;
+			targetProxy = DAE733D91BB3DAA200E8A697 /* PBXContainerItemProxy */;
+		};
+		DAE733FF1BB3DABC00E8A697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE733ED1BB3DABC00E8A697 /* macLamps Widget */;
+			targetProxy = DAE733FE1BB3DABC00E8A697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAE733C51BB3DAA200E8A697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE733C61BB3DAA200E8A697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAE733F71BB3DABC00E8A697 /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE733F81BB3DABC00E8A697 /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		DAE733FB1BB3DABC00E8A697 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE733FC1BB3DABC00E8A697 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE733DF1BB3DAA200E8A697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAE733E01BB3DAA200E8A697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAE733E21BB3DAA200E8A697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macLamps/macLamps.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = macLamps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pfleury.macLamps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAE733E31BB3DAA200E8A697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macLamps/macLamps.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = macLamps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pfleury.macLamps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAE733E51BB3DAA200E8A697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macLampsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pfleury.macLampsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macLamps.app/Contents/MacOS/macLamps";
+			};
+			name = Debug;
+		};
+		DAE733E61BB3DAA200E8A697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macLampsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pfleury.macLampsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macLamps.app/Contents/MacOS/macLamps";
+			};
+			name = Release;
+		};
+		DAE733E81BB3DAA200E8A697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macLampsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pfleury.macLampsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = macLamps;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAE733E91BB3DAA200E8A697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macLampsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pfleury.macLampsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = macLamps;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		DAE734021BB3DABC00E8A697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macLamps Widget/macLamps_Widget.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macLamps Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pfleury.macLamps.macLamps-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DAE734031BB3DABC00E8A697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macLamps Widget/macLamps_Widget.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macLamps Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pfleury.macLamps.macLamps-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE733B71BB3DAA200E8A697 /* Build configuration list for PBXProject "macLamps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE733DF1BB3DAA200E8A697 /* Debug */,
+				DAE733E01BB3DAA200E8A697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE733E11BB3DAA200E8A697 /* Build configuration list for PBXNativeTarget "macLamps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE733E21BB3DAA200E8A697 /* Debug */,
+				DAE733E31BB3DAA200E8A697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE733E41BB3DAA200E8A697 /* Build configuration list for PBXNativeTarget "macLampsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE733E51BB3DAA200E8A697 /* Debug */,
+				DAE733E61BB3DAA200E8A697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE733E71BB3DAA200E8A697 /* Build configuration list for PBXNativeTarget "macLampsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE733E81BB3DAA200E8A697 /* Debug */,
+				DAE733E91BB3DAA200E8A697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE734011BB3DABC00E8A697 /* Build configuration list for PBXNativeTarget "macLamps Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE734021BB3DABC00E8A697 /* Debug */,
+				DAE734031BB3DABC00E8A697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE733B41BB3DAA200E8A697 /* Project object */;
+}
