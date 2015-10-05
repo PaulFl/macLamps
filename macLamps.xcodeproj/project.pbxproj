@@ -298,6 +298,7 @@
 					};
 					DAE733ED1BB3DABC00E8A697 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = J9S55HH3EC;
 					};
 				};
 			};
